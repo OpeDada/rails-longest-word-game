@@ -1,0 +1,17 @@
+<%# <form action="/score" method="post">
+  <input type="text" name="new">
+  <input type="submit">
+   <input id="tags_list" name="tags_list" type="hidden"/>
+</form> %>
+
+<%#
+<form action="/answer" method="get">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!">
+</form> %>
+
+<h1>Result</h1>
+
+<p><%= @message %></p>
+
+ <%= link_to "Play again", new_path %>
